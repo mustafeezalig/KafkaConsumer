@@ -1,0 +1,25 @@
+Act as a Senior Java Developer.
+
+Context:
+- Java 11, Spring Boot microservice
+- Kafka integration with JSON messages
+- Topic: order-topic
+
+Task:
+- Create a Kafka consumer using @KafkaListener
+- Consume and deserialize JSON messages
+- Validate incoming data
+- Process order logic
+- Implement manual acknowledgment
+- Handle errors with retry mechanism
+- Log all operations
+- Add unit tests for different scenarios
+
+
+Constraint:
+-Production Ready code
+
+
+Output:
+- Complete class with annotations
+- application.yml config

@@ -1,0 +1,38 @@
+Act as a Senior Java Developer.C
+
+Context:
+- Java 11, Spring Boot microservice
+- Kafka integration with JSON messages
+- Topic: order-topic
+
+Task:
+- Create a Kafka consumer using @KafkaListener
+- Consume and deserialize JSON messages
+- Validate incoming data
+- Process order logic
+- Implement manual acknowledgment
+- Handle errors with retry mechanism
+- Log all operations
+- Add unit tests for different scenarios
+
+Constraint:
+- Production-ready code
+- Follow clean code and SOLID principles
+- Use constructor injection only
+- Implement proper exception handling
+- Differentiate retryable vs non-retryable errors
+- Use SLF4J for logging
+- Avoid hardcoding values (use application.yml)
+- Include retry mechanism with backoff
+- Write unit tests using JUnit 5 and Mockito
+- No pseudo code or incomplete implementations
+
+Output :
+- Complete Kafka consumer class with annotations
+- Service class for business logic
+- Model class for JSON mapping
+- Kafka configuration class
+- application.yml with required properties
+- Unit test class using JUnit 5 and Mockito
+- Provide full code (no snippets or pseudo code)
+- Include necessary imports and package structure
